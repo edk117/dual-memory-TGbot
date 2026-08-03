@@ -1,0 +1,63 @@
+### Python
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checking / linting
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+### macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+### VS Code
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.code-workspace
+
+### Project data
+
+data/
+
+### Deprecated standalone bots (use bot_dual_memory.py)
+
+bot_long_memory.py
+bot_short_memory.py
+README_long_memory_bot.md
+README_shot_memory_bot.md
+
+### Credentials
+
+.env*
+!.env.example
+*.key
+credentials*
